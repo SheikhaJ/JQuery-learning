@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: #76481a;
+}
+
+.full-img{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.con-item{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.pre{
+    padding: 10px 40px;
+    margin: 10px;
+}
+
+.next{
+    padding: 10px 40px;
+    margin: 10px;
+}
